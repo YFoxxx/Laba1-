@@ -20,8 +20,6 @@ int main() {
     }
     in_file.close();
 
-    cout << n_str << endl;
-
     n = StringToInt(n_str);
 
     if (clause(n) == true) {
