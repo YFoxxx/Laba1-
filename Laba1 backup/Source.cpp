@@ -24,7 +24,12 @@ int main() {
 
     if (clause(n) == true) {
         fout.open("OUTPUT.txt");
-        brakets(n, fout);
+        if (n % 2 == 0) {
+            brakets(n, fout);
+        }
+        else {
+            brakets(n-1, fout);
+        }
         fout.close();
     } 
     else {

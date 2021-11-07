@@ -49,7 +49,7 @@ int StringToInt(string n_str)
 
 bool clause(int n)
 {
-    if ((n % 2 == 0) && (n <= 16) && (n != 0) && (n > 0)) {
+    if ((n <= 16) && (n != 0) && (n > 0)) {
         cout << "Sucsses!" << endl;
         return true;
     }
